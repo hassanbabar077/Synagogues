@@ -1,0 +1,99 @@
+/* Set background color and font for the entire body */
+body {
+    background: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+/* Styling for small text within the main heading */
+h1 small {
+    display: block;
+    font-size: 15px;
+    padding-top: 8px;
+    color: gray;
+}
+
+/* Avatar upload container */
+.avatar-upload {
+    position: relative;
+    max-width: 175px;
+    margin: 10px auto;
+}
+
+/* Edit icon container within avatar upload */
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    z-index: 2; /* Ensure the edit icon is above the avatar */
+}
+
+/* Hide the file input */
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+/* Edit icon label styling */
+.avatar-upload .avatar-edit label.edit-icon {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    text-align: center;
+    line-height: 34px; /* Center icon vertically */
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for the edit icon label */
+.avatar-upload .avatar-edit label.edit-icon:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+
+/* Icon within the edit icon label */
+.avatar-upload .avatar-edit label.edit-icon i {
+    font-size: 16px;
+    color: #757575;
+    display: block; /* Ensure icon behaves like a block element */
+    margin-top: 9px; /* Adjust vertical alignment as needed */
+}
+
+/* Avatar preview container */
+.avatar-upload .avatar-preview {
+    width: 152px;
+    height: 152px;
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid #F8F8F8;
+    overflow: hidden;
+    z-index: 1; /* Ensure the avatar is below the edit icon */
+}
+
+/* Image within the avatar preview */
+.avatar-upload .avatar-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+ 

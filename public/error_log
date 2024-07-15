@@ -1,0 +1,5 @@
+[01-Jul-2024 13:48:23 UTC] PHP Fatal error:  Cannot redeclare App\Models\PrayerCategory::PrayerTimes() in /home/levifnaf/kol-hazman.levilop.com/app/Models/PrayerCategory.php on line 18
+[01-Jul-2024 13:48:38 UTC] PHP Fatal error:  Cannot redeclare App\Models\PrayerCategory::PrayerTimes() in /home/levifnaf/kol-hazman.levilop.com/app/Models/PrayerCategory.php on line 18
+[05-Jul-2024 15:25:22 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) in /home/levifnaf/kol-hazman.levilop.com/storage/framework/views/29310b3b63381e91f8e5d4a4c821a37e.php on line 1
+[05-Jul-2024 15:29:03 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 32768 bytes) in /home/levifnaf/kol-hazman.levilop.com/storage/framework/views/1d2ff45ce92118d24af3ab9b2a7271bc.php on line 46
+[05-Jul-2024 15:54:52 UTC] PHP Fatal error:  Maximum execution time of 1500 seconds exceeded in /home/levifnaf/kol-hazman.levilop.com/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesLayouts.php on line 155
